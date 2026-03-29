@@ -1,8 +1,8 @@
-##Controle de Estoque de Impressoras
+**Controle de Estoque de Impressoras
 
 Sistema desenvolvido em C# para controle de estoque de itens de impressoras (toner, fusor, unidade de imagem).
 
-##Funcionalidades
+**Funcionalidades
 
 * Listagem de estoque
 * Atualização de quantidade
@@ -10,13 +10,13 @@ Sistema desenvolvido em C# para controle de estoque de itens de impressoras (ton
 * Geração de relatório em Excel
 * Conexão com banco MySQL em nuvem
 
-##Tecnologias
+**Tecnologias
 
-* C#
-* MySQL
-* Railway (cloud database)
-* ClosedXML
+- C#
+- MySQL
+- Railway (cloud database)
+- ClosedXML
 
-##Objetivo
+**Objetivo
 
 Substituir controle manual em Excel por um sistema automatizado.
