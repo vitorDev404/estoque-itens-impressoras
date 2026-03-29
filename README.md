@@ -1,4 +1,4 @@
-#**Controle de Estoque de Impressoras**#
+##**Controle de Estoque de Impressoras**##
 
 Sistema desenvolvido em C# para controle de estoque de itens de impressoras (toner, fusor, unidade de imagem).
 
