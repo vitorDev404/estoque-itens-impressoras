@@ -43,3 +43,4 @@ C:\Users\vitor\source\repos\estoqueImpressoras\estoqueImpressoras\bin\Debug\net8
 C:\Users\vitor\source\repos\estoqueImpressoras\estoqueImpressoras\bin\Debug\net8.0\RBush.dll
 C:\Users\vitor\source\repos\estoqueImpressoras\estoqueImpressoras\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\vitor\source\repos\estoqueImpressoras\estoqueImpressoras\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\vitor\source\repos\estoqueImpressoras\estoqueImpressoras\obj\Debug\net8.0\estoqueImpressoras.sourcelink.json

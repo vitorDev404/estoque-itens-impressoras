@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("estoqueImpressoras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c78b204ccb1f7bf28952c8fdf7bc71db54868ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("estoqueImpressoras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("estoqueImpressoras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

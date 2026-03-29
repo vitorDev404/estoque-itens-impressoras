@@ -11,9 +11,9 @@ public class Program
         var connection = conn.GetConnection();
         if (connection != null)
         {
-            Console.WriteLine("====================================");
+            Console.WriteLine("------------------------------------");
             Console.WriteLine("ESTOQUE ITENS DE IMPRESSORAS - HGG");
-            Console.WriteLine("====================================");
+            Console.WriteLine("------------------------------------");
         }
         else
         {
@@ -21,12 +21,14 @@ public class Program
         }
         
         while (opcao != 4) {
-            Console.WriteLine("============================");
+            Console.WriteLine("---------------------------");
             Console.WriteLine("Escolha a opção desejada");
             Console.WriteLine("1 - Listar estoque");
             Console.WriteLine("2 - Alterar quantidade");
             Console.WriteLine("3 - Gerar relatório");
             Console.WriteLine("4 - Sair");
+            Console.WriteLine("---------------------------");
+            Console.Write("opção:");
             opcao = int.Parse(Console.ReadLine());
             if (opcao == 1)
             {
@@ -85,7 +87,7 @@ public class Program
         id = int.Parse(Console.ReadLine());
         Console.WriteLine("Quantidade:");
         quantidade = int.Parse(Console.ReadLine());
-        MySqlCommand cmd = new MySqlCommand("UPDATE itens SET quantidade = '" + quantidade + "'", connection);
+        MySqlCommand cmd = new MySqlCommand("UPDATE itens SET quantidade = " + quantidade + " WHERE id = " + id,connection);
         try
         {
             cmd.ExecuteNonQuery();
